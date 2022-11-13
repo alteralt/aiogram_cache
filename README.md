@@ -7,7 +7,9 @@
 [![repository size](https://img.shields.io/github/repo-size/alteralt/aiogram_cache)](https://github.com/alteralt/aiogram_cache)
 
 # Install
-``pip install aiogram_cache``
+```
+pip install aiogram_cache
+```
 
 # How to use
 
