@@ -38,6 +38,7 @@ async def get_usd_price() -> float:
             json_response = await response.json(content_type=None)
             return round(float(json_response["Valute"]["USD"]["Value"]), 2)
 
+        
 @dp.message_handler(commands=["price"])
 async def price(message: types.Message, cache: aiogram_cache.CacheContext):
     # Получаем данные из кеша по ключу
